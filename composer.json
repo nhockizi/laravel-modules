@@ -1,0 +1,32 @@
+{
+  "name": "nhockizi/laravel-modules",
+  "description": "Laravel Module management",
+  "keywords": [
+    "modules",
+    "laravel",
+    "nhockizi",
+    "module",
+    "rad"
+  ],
+  "license": "MIT",
+  "authors": [
+      {
+          "name": "nhockizi",
+          "email": "nhockizi@gmail.com"
+      }
+  ],
+  "require": {
+    "php": ">=5.5",
+    "laravel/framework": "5.1.*|5.2.*|5.3.*|5.4.*|5.5.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Kizi\\Modules\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Kizi\\Modules\\Tests\\": "tests"
+    }
+  },
+}
