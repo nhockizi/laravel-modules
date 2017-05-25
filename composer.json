@@ -23,10 +23,5 @@
     "psr-4": {
       "Kizi\\Modules\\": "src"
     }
-  },
-  "autoload-dev": {
-    "psr-4": {
-      "Kizi\\Modules\\Tests\\": "tests"
-    }
-  },
+  }
 }
